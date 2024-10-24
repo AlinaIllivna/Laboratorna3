@@ -1,0 +1,71 @@
+.p1 {
+  font-size: 30px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.main_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  line-height: 50px;
+  background-color: var(--main1-bg-color);
+}
+.p2 {
+  font-size: 50px;
+  color: var(--main-bg-color);
+  width: 700px;
+  /* margin-top: 0; */
+}
+.p3 {
+  
+  color: white;
+
+  width: 700px;
+}
+.img {
+  width: 500px;
+  box-shadow: 10px 10px 10px var(--main-bg-color);
+}
+.img2 {
+  width: 500px;
+  box-shadow: 10px 10px 10px var(--main-bg-color);
+  margin-top: 50px;
+}
+body {
+  font-family: "Lora", serif;
+}
+.number_list {
+  
+  color: white;
+  width: 700px;
+  
+}
+.dot_list {
+ 
+  color: white;
+  width: 700px;
+ 
+}
+
+.p3, .number_list, .dot_list {
+    line-height: 1.6; /* Підвищення читабельності через більший інтервал між рядками */
+    font-size: 17px;  /* Трохи більший розмір шрифту */
+  }
+  
+  .number_list li, .dot_list li {
+    margin-bottom: 10px; /* Відступи між пунктами списку */
+  }
+  .img, .img2 {
+    transition: transform 0.3s ease;
+  }
+  
+  .img:hover, .img2:hover {
+    transform: scale(1.05); /* Легке збільшення при наведенні */
+  }
+ 
+   
